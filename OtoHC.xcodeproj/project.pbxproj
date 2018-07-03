@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5805BF6520E1F5930062CE2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5805BF6420E1F5930062CE2B /* Assets.xcassets */; };
+		5805BF6720E20BB80062CE2B /* ViewProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805BF6620E20BB80062CE2B /* ViewProfileController.swift */; };
+		58488E3220EA2CE20065FF70 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58488E3120EA2CE20065FF70 /* RegisterViewController.swift */; };
+		586E909B20E36C26009B5012 /* SOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586E909A20E36C26009B5012 /* SOSViewController.swift */; };
+		586E90D920E37F60009B5012 /* ViewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586E90D820E37F60009B5012 /* ViewNavigationController.swift */; };
+		589C5F0420E9E70600E0452F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589C5F0320E9E70600E0452F /* LoginViewController.swift */; };
+		589C5F0620EA045A00E0452F /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589C5F0520EA045A00E0452F /* MD5.swift */; };
+		58C1D42920E33A8A0052B409 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C1D42820E33A8A0052B409 /* MessageUI.framework */; };
+		58C1D42B20E34C5E0052B409 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C1D42A20E34C5E0052B409 /* CoreLocation.framework */; };
+		58EC256920E4DE3D00F57914 /* Extension + toDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EC256820E4DE3D00F57914 /* Extension + toDouble.swift */; };
+		58F2716020E0D47500FE66B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2715F20E0D47500FE66B0 /* AppDelegate.swift */; };
+		58F2716520E0D47500FE66B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F2716320E0D47500FE66B0 /* Main.storyboard */; };
+		58F2716D20E0D47700FE66B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F2716B20E0D47700FE66B0 /* LaunchScreen.storyboard */; };
+		58F2717520E0E64D00FE66B0 /* ListContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2717420E0E64D00FE66B0 /* ListContactViewController.swift */; };
+		58F2717720E0E66000FE66B0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2717620E0E66000FE66B0 /* ContactViewController.swift */; };
+		58F2717B20E0E6F500FE66B0 /* MAPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2717A20E0E6F500FE66B0 /* MAPViewController.swift */; };
+		58F2718020E0F21B00FE66B0 /* DataSerVice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2717F20E0F21B00FE66B0 /* DataSerVice.swift */; };
+		58F2718220E0F22500FE66B0 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2718120E0F22500FE66B0 /* Contact.swift */; };
+		58F2718420E0F24D00FE66B0 /* ConTactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2718320E0F24D00FE66B0 /* ConTactCell.swift */; };
+		695E7028BBF32D9A2BAD7CEE /* Pods_OtoHC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD670DC7E4FC6D44DCF1A96 /* Pods_OtoHC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35C4A2FBE6C4C551D337B6DA /* Pods-OtoHC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtoHC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OtoHC/Pods-OtoHC.debug.xcconfig"; sourceTree = "<group>"; };
+		3BD670DC7E4FC6D44DCF1A96 /* Pods_OtoHC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtoHC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5805BF6420E1F5930062CE2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/Earthquake-master/Earthquake/Assets.xcassets"; sourceTree = "<group>"; };
+		5805BF6620E20BB80062CE2B /* ViewProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProfileController.swift; sourceTree = "<group>"; };
+		58488E3120EA2CE20065FF70 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		586E909A20E36C26009B5012 /* SOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSViewController.swift; sourceTree = "<group>"; };
+		586E90D820E37F60009B5012 /* ViewNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNavigationController.swift; sourceTree = "<group>"; };
+		589C5F0320E9E70600E0452F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		589C5F0520EA045A00E0452F /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		58C1D42820E33A8A0052B409 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		58C1D42A20E34C5E0052B409 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		58EC256820E4DE3D00F57914 /* Extension + toDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + toDouble.swift"; sourceTree = "<group>"; };
+		58F2715C20E0D47500FE66B0 /* OtoHC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtoHC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F2715F20E0D47500FE66B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58F2716420E0D47500FE66B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58F2716C20E0D47700FE66B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58F2716E20E0D47700FE66B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F2717420E0E64D00FE66B0 /* ListContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContactViewController.swift; sourceTree = "<group>"; };
+		58F2717620E0E66000FE66B0 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		58F2717A20E0E6F500FE66B0 /* MAPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPViewController.swift; sourceTree = "<group>"; };
+		58F2717F20E0F21B00FE66B0 /* DataSerVice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSerVice.swift; sourceTree = "<group>"; };
+		58F2718120E0F22500FE66B0 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		58F2718320E0F24D00FE66B0 /* ConTactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConTactCell.swift; sourceTree = "<group>"; };
+		D2B8102BD25C4BB474ABBF4B /* Pods-OtoHC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtoHC.release.xcconfig"; path = "Pods/Target Support Files/Pods-OtoHC/Pods-OtoHC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58F2715920E0D47500FE66B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C1D42B20E34C5E0052B409 /* CoreLocation.framework in Frameworks */,
+				58C1D42920E33A8A0052B409 /* MessageUI.framework in Frameworks */,
+				695E7028BBF32D9A2BAD7CEE /* Pods_OtoHC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58F2715320E0D47500FE66B0 = {
+			isa = PBXGroup;
+			children = (
+				58F2715E20E0D47500FE66B0 /* OtoHC */,
+				58F2715D20E0D47500FE66B0 /* Products */,
+				8FDD06A8466C302F6ED026AD /* Pods */,
+				ABDF4DBE90F703CD817A3AA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58F2715D20E0D47500FE66B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58F2715C20E0D47500FE66B0 /* OtoHC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58F2715E20E0D47500FE66B0 /* OtoHC */ = {
+			isa = PBXGroup;
+			children = (
+				58F2715F20E0D47500FE66B0 /* AppDelegate.swift */,
+				58F2717E20E0F1F700FE66B0 /* View */,
+				58F2717D20E0F1EC00FE66B0 /* Model */,
+				58F2717C20E0F1D500FE66B0 /* Controller */,
+				58F2716320E0D47500FE66B0 /* Main.storyboard */,
+				58F2716B20E0D47700FE66B0 /* LaunchScreen.storyboard */,
+				5805BF6420E1F5930062CE2B /* Assets.xcassets */,
+				58F2716E20E0D47700FE66B0 /* Info.plist */,
+			);
+			path = OtoHC;
+			sourceTree = "<group>";
+		};
+		58F2717C20E0F1D500FE66B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				589C5F0320E9E70600E0452F /* LoginViewController.swift */,
+				58488E3120EA2CE20065FF70 /* RegisterViewController.swift */,
+				58F2717A20E0E6F500FE66B0 /* MAPViewController.swift */,
+				58F2717420E0E64D00FE66B0 /* ListContactViewController.swift */,
+				58F2717620E0E66000FE66B0 /* ContactViewController.swift */,
+				586E90D820E37F60009B5012 /* ViewNavigationController.swift */,
+				5805BF6620E20BB80062CE2B /* ViewProfileController.swift */,
+				586E909A20E36C26009B5012 /* SOSViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		58F2717D20E0F1EC00FE66B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58F2717F20E0F21B00FE66B0 /* DataSerVice.swift */,
+				58F2718120E0F22500FE66B0 /* Contact.swift */,
+				58EC256820E4DE3D00F57914 /* Extension + toDouble.swift */,
+				589C5F0520EA045A00E0452F /* MD5.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58F2717E20E0F1F700FE66B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58F2718320E0F24D00FE66B0 /* ConTactCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FDD06A8466C302F6ED026AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35C4A2FBE6C4C551D337B6DA /* Pods-OtoHC.debug.xcconfig */,
+				D2B8102BD25C4BB474ABBF4B /* Pods-OtoHC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABDF4DBE90F703CD817A3AA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58C1D42A20E34C5E0052B409 /* CoreLocation.framework */,
+				58C1D42820E33A8A0052B409 /* MessageUI.framework */,
+				3BD670DC7E4FC6D44DCF1A96 /* Pods_OtoHC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58F2715B20E0D47500FE66B0 /* OtoHC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F2717120E0D47700FE66B0 /* Build configuration list for PBXNativeTarget "OtoHC" */;
+			buildPhases = (
+				5D7120F12F6E1D92671F5CDC /* [CP] Check Pods Manifest.lock */,
+				58F2715820E0D47500FE66B0 /* Sources */,
+				58F2715920E0D47500FE66B0 /* Frameworks */,
+				58F2715A20E0D47500FE66B0 /* Resources */,
+				EFF07EEF1E4CDCE1A4DF4A3F /* [CP] Copy Pods Resources */,
+				16A4CF4F296D66321A5FEDF4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OtoHC;
+			productName = OtoHC;
+			productReference = 58F2715C20E0D47500FE66B0 /* OtoHC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58F2715420E0D47500FE66B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = NguyenDinhPhu;
+				TargetAttributes = {
+					58F2715B20E0D47500FE66B0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 58F2715720E0D47500FE66B0 /* Build configuration list for PBXProject "OtoHC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58F2715320E0D47500FE66B0;
+			productRefGroup = 58F2715D20E0D47500FE66B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58F2715B20E0D47500FE66B0 /* OtoHC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58F2715A20E0D47500FE66B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F2716D20E0D47700FE66B0 /* LaunchScreen.storyboard in Resources */,
+				5805BF6520E1F5930062CE2B /* Assets.xcassets in Resources */,
+				58F2716520E0D47500FE66B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16A4CF4F296D66321A5FEDF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OtoHC/Pods-OtoHC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireSwiftyJSON/AlamofireSwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/DLLocalNotifications/DLLocalNotifications.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireSwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLLocalNotifications.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OtoHC/Pods-OtoHC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D7120F12F6E1D92671F5CDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OtoHC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF07EEF1E4CDCE1A4DF4A3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OtoHC/Pods-OtoHC-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OtoHC/Pods-OtoHC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58F2715820E0D47500FE66B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589C5F0620EA045A00E0452F /* MD5.swift in Sources */,
+				58F2718420E0F24D00FE66B0 /* ConTactCell.swift in Sources */,
+				58F2717520E0E64D00FE66B0 /* ListContactViewController.swift in Sources */,
+				58F2717720E0E66000FE66B0 /* ContactViewController.swift in Sources */,
+				586E90D920E37F60009B5012 /* ViewNavigationController.swift in Sources */,
+				58488E3220EA2CE20065FF70 /* RegisterViewController.swift in Sources */,
+				5805BF6720E20BB80062CE2B /* ViewProfileController.swift in Sources */,
+				58F2718020E0F21B00FE66B0 /* DataSerVice.swift in Sources */,
+				586E909B20E36C26009B5012 /* SOSViewController.swift in Sources */,
+				58F2716020E0D47500FE66B0 /* AppDelegate.swift in Sources */,
+				58F2717B20E0E6F500FE66B0 /* MAPViewController.swift in Sources */,
+				58F2718220E0F22500FE66B0 /* Contact.swift in Sources */,
+				589C5F0420E9E70600E0452F /* LoginViewController.swift in Sources */,
+				58EC256920E4DE3D00F57914 /* Extension + toDouble.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58F2716320E0D47500FE66B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F2716420E0D47500FE66B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58F2716B20E0D47700FE66B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F2716C20E0D47700FE66B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58F2716F20E0D47700FE66B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58F2717020E0D47700FE66B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58F2717220E0D47700FE66B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C4A2FBE6C4C551D337B6DA /* Pods-OtoHC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RKQ3586B7;
+				INFOPLIST_FILE = OtoHC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SoftViet.OtoHC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58F2717320E0D47700FE66B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B8102BD25C4BB474ABBF4B /* Pods-OtoHC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RKQ3586B7;
+				INFOPLIST_FILE = OtoHC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SoftViet.OtoHC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58F2715720E0D47500FE66B0 /* Build configuration list for PBXProject "OtoHC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F2716F20E0D47700FE66B0 /* Debug */,
+				58F2717020E0D47700FE66B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F2717120E0D47700FE66B0 /* Build configuration list for PBXNativeTarget "OtoHC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F2717220E0D47700FE66B0 /* Debug */,
+				58F2717320E0D47700FE66B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58F2715420E0D47500FE66B0 /* Project object */;
+}
