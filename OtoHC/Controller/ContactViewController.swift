@@ -35,8 +35,8 @@ class ContactViewController: UIViewController , MFMessageComposeViewControllerDe
         callButton.layer.cornerRadius = callButton.frame.size.width/2
         callButton.layer.masksToBounds = true
         
-        dieuhuongButton.layer.cornerRadius = 100
-         viewContact.layer.cornerRadius = 150
+        dieuhuongButton.layer.cornerRadius = 50
+         viewContact.layer.cornerRadius = 50
         // Do any additional setup after loading the view.
     }
 
@@ -52,14 +52,14 @@ class ContactViewController: UIViewController , MFMessageComposeViewControllerDe
  
     
     @IBAction func callBt(_ sender: UIButton) {
-        if let phoneCallURL = URL(string: "tel://\(numberphoneMember.text!)") {
-            
-            let application:UIApplication = UIApplication.shared
-            if (application.canOpenURL(phoneCallURL)) {
-                application.open(phoneCallURL, options: [:], completionHandler: nil)
-            }
-        }
-        if let url = NSURL(string : "TEL://" + numberphoneMember.text!){
+//        if let phoneCallURL = URL(string: "tel://\(numberphoneMember.text!)") {
+//
+//            let application:UIApplication = UIApplication.shared
+//            if (application.canOpenURL(phoneCallURL)) {
+//                application.open(phoneCallURL, options: [:], completionHandler: nil)
+//            }
+//        }
+        if let url = NSURL(string : "tel://" + numberphoneMember.text!){
             UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
         }
         print("call to \(numberphoneMember.text!)")

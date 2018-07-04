@@ -115,7 +115,7 @@ class MAPViewController: UIViewController ,CLLocationManagerDelegate{
         for i in 0..<count {
             addMarker(a: arrFirst[i].toDouble()!, b: arrSecond[i].toDouble()!)
             markerFriends[i].map = mapView
-            markerFriends[i].icon = #imageLiteral(resourceName: "Image-4")
+            markerFriends[i].icon = #imageLiteral(resourceName: "automobile (1)")
             markerFriends[i].title = contacts[i].FullName
             markerFriends[i].snippet = contacts[i].PhoneNumber
         }

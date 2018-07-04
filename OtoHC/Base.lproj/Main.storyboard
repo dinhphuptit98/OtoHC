@@ -34,7 +34,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="CPJ-Hf-2uu">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_user" translatesAutoresizingMaskIntoConstraints="NO" id="CPJ-Hf-2uu">
                                             <rect key="frame" x="0.0" y="0.0" width="99.5" height="99.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="CPJ-Hf-2uu" secondAttribute="height" id="Uxv-cL-bAK"/>
@@ -118,7 +118,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9tX-Hj-bJC">
                                 <rect key="frame" x="0.0" y="64" width="375" height="222.5"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="mPo-yS-7yi">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_user" translatesAutoresizingMaskIntoConstraints="NO" id="mPo-yS-7yi">
                                         <rect key="frame" x="131.5" y="20" width="111.5" height="111.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="mPo-yS-7yi" secondAttribute="height" id="iNO-wQ-ZLY"/>
@@ -157,23 +157,25 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loP-g0-laS">
                                         <rect key="frame" x="0.0" y="207" width="355" height="104"/>
-                                        <color key="backgroundColor" white="0.7837053571" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="0.66063136050000004" blue="0.097650575150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
-                                        <state key="normal" title="Điều hướng"/>
+                                        <state key="normal" title="Điều hướng">
+                                            <color key="titleColor" red="0.15519925339999999" green="0.63740689770000003" blue="0.077620636719999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="qVC-J8-3H9" kind="show" id="Tua-hv-Kjb"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTi-FF-bdd">
                                         <rect key="frame" x="177.5" y="0.0" width="177.5" height="187"/>
-                                        <state key="normal" image="sms2"/>
+                                        <state key="normal" image="speech-bubble"/>
                                         <connections>
                                             <action selector="SMSbt:" destination="gbn-Kj-873" eventType="touchUpInside" id="ubg-x5-aDX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pnh-hk-Uic">
                                         <rect key="frame" x="0.0" y="0.0" width="177.5" height="187"/>
-                                        <state key="normal" image="call2"/>
+                                        <state key="normal" image="telephone"/>
                                         <connections>
                                             <action selector="callBt:" destination="gbn-Kj-873" eventType="touchUpInside" id="BU1-bS-eK4"/>
                                         </connections>
@@ -327,13 +329,13 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="hcC-w2-rk6" secondAttribute="height" multiplier="1:1" id="QR6-wJ-qau"/>
                                 </constraints>
-                                <state key="normal" image="Image-2"/>
+                                <state key="normal" image="sos (2)"/>
                                 <connections>
                                     <action selector="sosButton:" destination="yBb-Y5-rEN" eventType="touchUpInside" id="Dy6-Bs-05V"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.2461746024" green="0.65712030440000002" blue="0.2358848143" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hcC-w2-rk6" firstAttribute="width" secondItem="K58-7q-saD" secondAttribute="width" multiplier="1/2" id="5yV-FW-KuA"/>
                             <constraint firstItem="hcC-w2-rk6" firstAttribute="centerX" secondItem="K58-7q-saD" secondAttribute="centerX" id="TdL-DF-zz2"/>
@@ -341,7 +343,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="clG-kG-Xfb"/>
                     </view>
-                    <tabBarItem key="tabBarItem" tag="-2" title="SOS" image="sos (1)" id="eU7-iM-qlc">
+                    <tabBarItem key="tabBarItem" tag="-2" title="SOS" image="sos (3)" id="eU7-iM-qlc">
                         <color key="badgeColor" red="0.95250485642154037" green="0.97054137262280904" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -372,7 +374,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3Zh-47-cQy"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Bản Đồ" image="Image" id="7dY-J6-b9w"/>
+                    <tabBarItem key="tabBarItem" title="Bản Đồ" image="map-location" id="7dY-J6-b9w"/>
                     <navigationItem key="navigationItem" id="QsN-Fj-rex"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -646,16 +648,17 @@
         <scene sceneID="TKY-Tu-7JL">
             <objects>
                 <tableViewController id="m2F-YA-jRj" customClass="SettingsTableViewController" customModule="OtoHC" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="aU3-XT-bnj">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="aU3-XT-bnj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.15519925339999999" green="0.63740689770000003" blue="0.077620636719999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="separatorColor" red="0.24408283750000001" green="0.70191062179999997" blue="0.046832046830000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="GeZ-ZG-Iht" customClass="SettingTableViewCell" customModule="OtoHC" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="60"/>
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GeZ-ZG-Iht" id="q1d-XJ-tLO">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pgj-rX-dk6">
@@ -665,7 +668,7 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHk-3e-v31">
-                                            <rect key="frame" x="79" y="9" width="259.5" height="40"/>
+                                            <rect key="frame" x="79" y="10" width="259.5" height="40"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="40" id="S8g-zp-thN"/>
                                             </constraints>
@@ -694,7 +697,7 @@
                             <outlet property="delegate" destination="m2F-YA-jRj" id="w1Y-3d-prU"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Cài Đặt" image="Image-3" id="vY2-4H-mF6"/>
+                    <tabBarItem key="tabBarItem" title="Cài Đặt" image="settings (1)" id="vY2-4H-mF6"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="90G-Nb-2KK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -739,7 +742,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vxs-FB-TYn">
                                 <rect key="frame" x="0.0" y="20" width="375" height="333.5"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="Qdo-ql-139">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_user" translatesAutoresizingMaskIntoConstraints="NO" id="Qdo-ql-139">
                                         <rect key="frame" x="75" y="55" width="225" height="225"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Qdo-ql-139" secondAttribute="height" multiplier="1:1" id="bXM-iN-MSA"/>
@@ -792,7 +795,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UR8-YN-pcb"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Cá Nhân" image="Image-1" id="w03-zA-Cd8"/>
+                    <tabBarItem key="tabBarItem" title="Cá Nhân" image="user (1)" id="w03-zA-Cd8"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="adressSelf" destination="rBu-Tm-bQO" id="NNR-8J-WKS"/>
@@ -845,13 +848,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Image" width="32" height="32"/>
-        <image name="Image-1" width="32" height="32"/>
-        <image name="Image-2" width="256" height="256"/>
-        <image name="Image-3" width="32" height="32"/>
-        <image name="call2" width="580" height="386"/>
-        <image name="sms2" width="112" height="112"/>
-        <image name="sos (1)" width="32" height="32"/>
-        <image name="user" width="114" height="110"/>
+        <image name="fb_user" width="100" height="100"/>
+        <image name="map-location" width="32" height="32"/>
+        <image name="settings (1)" width="32" height="32"/>
+        <image name="sos (2)" width="256" height="256"/>
+        <image name="sos (3)" width="32" height="32"/>
+        <image name="speech-bubble" width="64" height="64"/>
+        <image name="telephone" width="64" height="64"/>
+        <image name="user (1)" width="32" height="32"/>
     </resources>
 </document>

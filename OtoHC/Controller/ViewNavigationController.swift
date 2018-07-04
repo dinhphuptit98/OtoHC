@@ -79,7 +79,7 @@ class ViewNavigationController: UIViewController ,CLLocationManagerDelegate{
         
         markerFriend.position = CLLocationCoordinate2D(latitude: x.toDouble()!, longitude: y.toDouble()!)
         markerFriend.map = mapView
-        markerFriend.icon = #imageLiteral(resourceName: "Image-4")
+        markerFriend.icon = #imageLiteral(resourceName: "automobile (1)")
         
         
         

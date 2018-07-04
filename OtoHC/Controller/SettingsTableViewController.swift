@@ -11,7 +11,7 @@ import UIKit
 class SettingsTableViewController: UITableViewController {
 
     var arrString = ["Kiểu Bản Đồ","Âm Thanh Thông Báo","Điều khoản - Chính sách","Thông tin ứng dụng"]
-    var arrStringImage = ["map","sound","file","about"]
+    var arrStringImage = ["map","music-player","document","smartphone-call"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
