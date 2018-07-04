@@ -9,16 +9,14 @@
 /* Begin PBXBuildFile section */
 		5805BF6720E20BB80062CE2B /* ViewProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805BF6620E20BB80062CE2B /* ViewProfileController.swift */; };
 		58488E3220EA2CE20065FF70 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58488E3120EA2CE20065FF70 /* RegisterViewController.swift */; };
+		5853530220ECD5DC00B7E527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5853530120ECD5DC00B7E527 /* Assets.xcassets */; };
 		586E909B20E36C26009B5012 /* SOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586E909A20E36C26009B5012 /* SOSViewController.swift */; };
 		586E90D920E37F60009B5012 /* ViewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586E90D820E37F60009B5012 /* ViewNavigationController.swift */; };
-		5872C5F420EB2B57002C2792 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5872C5F320EB2B57002C2792 /* SettingsTableViewController.swift */; };
-		5872C5F620EB38ED002C2792 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5872C5F520EB38ED002C2792 /* SettingTableViewCell.swift */; };
 		589C5F0420E9E70600E0452F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589C5F0320E9E70600E0452F /* LoginViewController.swift */; };
 		589C5F0620EA045A00E0452F /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589C5F0520EA045A00E0452F /* MD5.swift */; };
 		58C1D42920E33A8A0052B409 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C1D42820E33A8A0052B409 /* MessageUI.framework */; };
 		58C1D42B20E34C5E0052B409 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C1D42A20E34C5E0052B409 /* CoreLocation.framework */; };
 		58EC256920E4DE3D00F57914 /* Extension + toDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EC256820E4DE3D00F57914 /* Extension + toDouble.swift */; };
-		58ED457420EC5D3C00B40BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58ED457320EC5D3C00B40BDB /* Assets.xcassets */; };
 		58F2716020E0D47500FE66B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2715F20E0D47500FE66B0 /* AppDelegate.swift */; };
 		58F2716520E0D47500FE66B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F2716320E0D47500FE66B0 /* Main.storyboard */; };
 		58F2716D20E0D47700FE66B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F2716B20E0D47700FE66B0 /* LaunchScreen.storyboard */; };
@@ -36,16 +34,14 @@
 		3BD670DC7E4FC6D44DCF1A96 /* Pods_OtoHC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtoHC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5805BF6620E20BB80062CE2B /* ViewProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProfileController.swift; sourceTree = "<group>"; };
 		58488E3120EA2CE20065FF70 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5853530120ECD5DC00B7E527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586E909A20E36C26009B5012 /* SOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSViewController.swift; sourceTree = "<group>"; };
 		586E90D820E37F60009B5012 /* ViewNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNavigationController.swift; sourceTree = "<group>"; };
-		5872C5F320EB2B57002C2792 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
-		5872C5F520EB38ED002C2792 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		589C5F0320E9E70600E0452F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		589C5F0520EA045A00E0452F /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
 		58C1D42820E33A8A0052B409 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		58C1D42A20E34C5E0052B409 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		58EC256820E4DE3D00F57914 /* Extension + toDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + toDouble.swift"; sourceTree = "<group>"; };
-		58ED457320EC5D3C00B40BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Library/Autosave Information/fdfsdfsf/fdfsdfsf/Assets.xcassets"; sourceTree = "<group>"; };
 		58F2715C20E0D47500FE66B0 /* OtoHC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtoHC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F2715F20E0D47500FE66B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58F2716420E0D47500FE66B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,7 +97,7 @@
 				58F2717C20E0F1D500FE66B0 /* Controller */,
 				58F2716320E0D47500FE66B0 /* Main.storyboard */,
 				58F2716B20E0D47700FE66B0 /* LaunchScreen.storyboard */,
-				58ED457320EC5D3C00B40BDB /* Assets.xcassets */,
+				5853530120ECD5DC00B7E527 /* Assets.xcassets */,
 				58F2716E20E0D47700FE66B0 /* Info.plist */,
 			);
 			path = OtoHC;
@@ -118,7 +114,6 @@
 				586E90D820E37F60009B5012 /* ViewNavigationController.swift */,
 				5805BF6620E20BB80062CE2B /* ViewProfileController.swift */,
 				586E909A20E36C26009B5012 /* SOSViewController.swift */,
-				5872C5F320EB2B57002C2792 /* SettingsTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -138,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				58F2718320E0F24D00FE66B0 /* ConTactCell.swift */,
-				5872C5F520EB38ED002C2792 /* SettingTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -224,7 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58F2716D20E0D47700FE66B0 /* LaunchScreen.storyboard in Resources */,
-				58ED457420EC5D3C00B40BDB /* Assets.xcassets in Resources */,
+				5853530220ECD5DC00B7E527 /* Assets.xcassets in Resources */,
 				58F2716520E0D47500FE66B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,13 +301,11 @@
 				58F2717720E0E66000FE66B0 /* ContactViewController.swift in Sources */,
 				586E90D920E37F60009B5012 /* ViewNavigationController.swift in Sources */,
 				58488E3220EA2CE20065FF70 /* RegisterViewController.swift in Sources */,
-				5872C5F620EB38ED002C2792 /* SettingTableViewCell.swift in Sources */,
 				5805BF6720E20BB80062CE2B /* ViewProfileController.swift in Sources */,
 				58F2718020E0F21B00FE66B0 /* DataSerVice.swift in Sources */,
 				586E909B20E36C26009B5012 /* SOSViewController.swift in Sources */,
 				58F2716020E0D47500FE66B0 /* AppDelegate.swift in Sources */,
 				58F2717B20E0E6F500FE66B0 /* MAPViewController.swift in Sources */,
-				5872C5F420EB2B57002C2792 /* SettingsTableViewController.swift in Sources */,
 				58F2718220E0F22500FE66B0 /* Contact.swift in Sources */,
 				589C5F0420E9E70600E0452F /* LoginViewController.swift in Sources */,
 				58EC256920E4DE3D00F57914 /* Extension + toDouble.swift in Sources */,

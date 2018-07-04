@@ -20,47 +20,51 @@ class RegisterViewController: UIViewController {
     let check = 0 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+//        checkBt.isSelected = true
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+   
+  
+    @IBAction func checkAcBt(_ sender: UIButton) {
+        if fullname.text == "" || shortname.text == "" || phonenumber.text == "" || adress.text == "" {
+            sender.isSelected = false
+        }else{
+            shortname.isEnabled = false
+            fullname.isEnabled = false
+            phonenumber.isEnabled = false
+            adress.isEnabled = false
+            sender.isSelected = true
+            username.isHidden = false
+            password.isHidden = false
+            registerButton.isHidden = false
+        }
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
     @IBAction func registerBt(_ sender: UIButton) {
-        let urlString = "http://192.168.1.212:8089/api/Members/InsertMember?ShortName=\(shortname.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&FullName=\(fullname.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&PhoneNumber=\(phonenumber.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&LicencePlate=&LocationId=&Address=\(adress.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&Note=&UserName=\(username.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&Password=\(MD5(password.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!))"
-
-        
-        Alamofire.request(urlString).responseJSON{ response in
-            print(response)
-            if let profileJSON = response.result.value{
-                let profileObj:Dictionary = profileJSON as! Dictionary<String,Any>
-                let status:Int = profileObj["status"] as! Int
-                if self.check == status {
-                    let alert = UIAlertController(title: nil, message: "Đăng kí chưa hợp lệ , đăng kí lại", preferredStyle: UIAlertControllerStyle.alert)
-                    alert.addAction(UIAlertAction(title: "Đồng Ý", style: UIAlertActionStyle.cancel, handler: nil))
-                    // show the alert
-                    self.present(alert, animated: true, completion: nil)
-                }else{
-                    let alert = UIAlertController(title: nil, message: "Đăng kí thành công , đăng nhập để sử dụng", preferredStyle: UIAlertControllerStyle.alert)
-                    alert.addAction(UIAlertAction(title: "Đồng Ý", style: UIAlertActionStyle.cancel, handler: nil))
-                    // show the alert
-                    self.present(alert, animated: true, completion: nil)
+       
+            let urlString = "http://192.168.1.212:8089/api/Members/InsertMember?ShortName=\(shortname.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&FullName=\(fullname.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&PhoneNumber=\(phonenumber.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&LicencePlate=&LocationId=&Address=\(adress.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&Note=&UserName=\(username.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&Password=\(MD5(password.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!))"
+            
+            
+            Alamofire.request(urlString).responseJSON{ response in
+                print(response)
+                if let profileJSON = response.result.value{
+                    let profileObj:Dictionary = profileJSON as! Dictionary<String,Any>
+                    let status:Int = profileObj["status"] as! Int
+                    if self.check == status {
+                        let alert = UIAlertController(title: nil, message: "Đăng kí chưa hợp lệ , đăng kí lại", preferredStyle: UIAlertControllerStyle.alert)
+                        alert.addAction(UIAlertAction(title: "Đồng Ý", style: UIAlertActionStyle.cancel, handler: nil))
+                        // show the alert
+                        self.present(alert, animated: true, completion: nil)
+                    }else{
+                        let alert = UIAlertController(title: nil, message: "Đăng kí thành công , đăng nhập để sử dụng", preferredStyle: UIAlertControllerStyle.alert)
+                        alert.addAction(UIAlertAction(title: "Đồng Ý", style: UIAlertActionStyle.cancel, handler: nil))
+                        // show the alert
+                        self.present(alert, animated: true, completion: nil)
+                    }
                 }
             }
         }
-    }
+
+        
 }

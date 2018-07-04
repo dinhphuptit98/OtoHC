@@ -2,15 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "check-box-empty.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "sms2.jpeg",
+      "filename" : "check-box-empty-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "check-box-empty-2.png",
       "scale" : "3x"
     }
   ],
