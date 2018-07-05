@@ -56,7 +56,6 @@ class MAPViewController: UIViewController ,CLLocationManagerDelegate{
         mapView.settings.myLocationButton = true
         mapView.settings.compassButton = true
         mapView.isMyLocationEnabled = true
-        mapView.mapType = .normal
         placesClient = GMSPlacesClient.shared()
         
         // get data API member

@@ -52,7 +52,7 @@ class ViewNavigationController: UIViewController ,CLLocationManagerDelegate{
         mapView.settings.myLocationButton = true
         mapView.settings.compassButton = true
         mapView.isMyLocationEnabled = true
-        mapView.mapType =  .terrain
+        mapView.mapType =  .hybrid
         placesClient = GMSPlacesClient.shared()
         
         if let string = (location2.range(of: ",")?.lowerBound) {

@@ -15,6 +15,8 @@ class ViewProfileController: UIViewController {
     @IBOutlet weak var numberPhoneSelf: UITextField!
     @IBOutlet weak var adressSelf: UITextField!
     @IBOutlet weak var logout: UIButton!
+    @IBOutlet weak var editBt: UIButton!
+    @IBOutlet weak var saveBt: UIButton!
     
     
     override func viewDidLoad() {
@@ -22,6 +24,11 @@ class ViewProfileController: UIViewController {
         
         photoSelf.layer.cornerRadius = photoSelf.frame.size.width/2
         photoSelf.layer.masksToBounds = true
+        editBt.layer.cornerRadius = editBt.frame.size.width/2
+        editBt.layer.masksToBounds = true
+        saveBt.layer.cornerRadius = saveBt.frame.size.width/2
+        saveBt.layer.masksToBounds = true
+        logout.layer.cornerRadius = 20
         
         nameSelf.text = UserDefaults.standard.string(forKey: "fullName")!
         adressSelf.text = UserDefaults.standard.string(forKey: "adress")!
@@ -45,4 +52,17 @@ class ViewProfileController: UIViewController {
         // show the alert
         self.present(alert, animated: true, completion: nil)
     }
+    
+    @IBAction func edit(_ sender: UIButton) {
+        nameSelf.isEnabled = true
+        numberPhoneSelf.isEnabled = true
+        adressSelf.isEnabled = true
+    }
+    
+    @IBAction func save(_ sender: UIButton) {
+        nameSelf.isEnabled = false
+        numberPhoneSelf.isEnabled = false
+        adressSelf.isEnabled = false
+    }
+    
 }
