@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5805BF6720E20BB80062CE2B /* ViewProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805BF6620E20BB80062CE2B /* ViewProfileController.swift */; };
-		584645E020EDB260008CD4CD /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584645DF20EDB260008CD4CD /* ContactsViewController.swift */; };
 		58488E3220EA2CE20065FF70 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58488E3120EA2CE20065FF70 /* RegisterViewController.swift */; };
 		5853530220ECD5DC00B7E527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5853530120ECD5DC00B7E527 /* Assets.xcassets */; };
 		586E909B20E36C26009B5012 /* SOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586E909A20E36C26009B5012 /* SOSViewController.swift */; };
 		586E90D920E37F60009B5012 /* ViewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586E90D820E37F60009B5012 /* ViewNavigationController.swift */; };
 		589C5F0420E9E70600E0452F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589C5F0320E9E70600E0452F /* LoginViewController.swift */; };
 		589C5F0620EA045A00E0452F /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589C5F0520EA045A00E0452F /* MD5.swift */; };
+		58A2E63020F36C5E009104C7 /* ChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A2E62F20F36C5E009104C7 /* ChangeViewController.swift */; };
+		58BCC2A820EF6A16008864AE /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCC2A720EF6A16008864AE /* SettingTableViewCell.swift */; };
+		58BCC2AA20EF6A4F008864AE /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCC2A920EF6A4F008864AE /* ContactsViewController.swift */; };
+		58BCC2AC20EF6BA2008864AE /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCC2AB20EF6BA2008864AE /* SettingsTableViewController.swift */; };
 		58C1D42920E33A8A0052B409 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C1D42820E33A8A0052B409 /* MessageUI.framework */; };
 		58C1D42B20E34C5E0052B409 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C1D42A20E34C5E0052B409 /* CoreLocation.framework */; };
 		58EC256920E4DE3D00F57914 /* Extension + toDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EC256820E4DE3D00F57914 /* Extension + toDouble.swift */; };
@@ -33,13 +36,16 @@
 		35C4A2FBE6C4C551D337B6DA /* Pods-OtoHC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtoHC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OtoHC/Pods-OtoHC.debug.xcconfig"; sourceTree = "<group>"; };
 		3BD670DC7E4FC6D44DCF1A96 /* Pods_OtoHC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtoHC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5805BF6620E20BB80062CE2B /* ViewProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProfileController.swift; sourceTree = "<group>"; };
-		584645DF20EDB260008CD4CD /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactsViewController.swift; path = /Users/nguyendinhphu/Downloads/OtoHC/OtoHC/Controller/ContactsViewController.swift; sourceTree = "<absolute>"; };
 		58488E3120EA2CE20065FF70 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		5853530120ECD5DC00B7E527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586E909A20E36C26009B5012 /* SOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSViewController.swift; sourceTree = "<group>"; };
 		586E90D820E37F60009B5012 /* ViewNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNavigationController.swift; sourceTree = "<group>"; };
 		589C5F0320E9E70600E0452F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		589C5F0520EA045A00E0452F /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		58A2E62F20F36C5E009104C7 /* ChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeViewController.swift; sourceTree = "<group>"; };
+		58BCC2A720EF6A16008864AE /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		58BCC2A920EF6A4F008864AE /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		58BCC2AB20EF6BA2008864AE /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		58C1D42820E33A8A0052B409 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		58C1D42A20E34C5E0052B409 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		58EC256820E4DE3D00F57914 /* Extension + toDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + toDouble.swift"; sourceTree = "<group>"; };
@@ -109,11 +115,13 @@
 				589C5F0320E9E70600E0452F /* LoginViewController.swift */,
 				58488E3120EA2CE20065FF70 /* RegisterViewController.swift */,
 				58F2717A20E0E6F500FE66B0 /* MAPViewController.swift */,
-				584645DF20EDB260008CD4CD /* ContactsViewController.swift */,
+				58BCC2A920EF6A4F008864AE /* ContactsViewController.swift */,
 				58F2717620E0E66000FE66B0 /* ContactViewController.swift */,
 				586E90D820E37F60009B5012 /* ViewNavigationController.swift */,
 				5805BF6620E20BB80062CE2B /* ViewProfileController.swift */,
 				586E909A20E36C26009B5012 /* SOSViewController.swift */,
+				58BCC2AB20EF6BA2008864AE /* SettingsTableViewController.swift */,
+				58A2E62F20F36C5E009104C7 /* ChangeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -133,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				58F2718320E0F24D00FE66B0 /* ConTactCell.swift */,
+				58BCC2A720EF6A16008864AE /* SettingTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,18 +306,21 @@
 			files = (
 				589C5F0620EA045A00E0452F /* MD5.swift in Sources */,
 				58F2718420E0F24D00FE66B0 /* ConTactCell.swift in Sources */,
+				58A2E63020F36C5E009104C7 /* ChangeViewController.swift in Sources */,
 				58F2717720E0E66000FE66B0 /* ContactViewController.swift in Sources */,
 				586E90D920E37F60009B5012 /* ViewNavigationController.swift in Sources */,
 				58488E3220EA2CE20065FF70 /* RegisterViewController.swift in Sources */,
 				5805BF6720E20BB80062CE2B /* ViewProfileController.swift in Sources */,
+				58BCC2A820EF6A16008864AE /* SettingTableViewCell.swift in Sources */,
 				58F2718020E0F21B00FE66B0 /* DataSerVice.swift in Sources */,
 				586E909B20E36C26009B5012 /* SOSViewController.swift in Sources */,
 				58F2716020E0D47500FE66B0 /* AppDelegate.swift in Sources */,
 				58F2717B20E0E6F500FE66B0 /* MAPViewController.swift in Sources */,
 				58F2718220E0F22500FE66B0 /* Contact.swift in Sources */,
+				58BCC2AC20EF6BA2008864AE /* SettingsTableViewController.swift in Sources */,
 				589C5F0420E9E70600E0452F /* LoginViewController.swift in Sources */,
 				58EC256920E4DE3D00F57914 /* Extension + toDouble.swift in Sources */,
-				584645E020EDB260008CD4CD /* ContactsViewController.swift in Sources */,
+				58BCC2AA20EF6A4F008864AE /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,16 +2,15 @@
 //  SettingsTableViewController.swift
 //  OtoHC
 //
-//  Created by NguyenDinhPhu on 03/07/2018.
+//  Created by NguyenDinhPhu on 06/07/2018.
 //  Copyright © 2018 NguyenDinhPhu. All rights reserved.
 //
 
 import UIKit
 
 class SettingsTableViewController: UITableViewController {
-
-    var arrString = ["Kiểu Bản Đồ","Âm Thanh Thông Báo","Điều khoản - Chính sách","Thông tin ứng dụng"]
-    var arrStringImage = ["route","music-player","document","smartphone-call"]
+    var arrString = ["Kiểu Bản Đồ","Marker","Âm Thanh","Ngôn Ngữ","Điều Khoản","Thông Tin","Thông Tin Đăng Nhập","Đăng Xuất"]
+    var arrImage = ["google","location","alarm","language","file","information","locked","exit"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,7 +28,7 @@ class SettingsTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-  
+   
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
@@ -40,57 +39,36 @@ class SettingsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! SettingTableViewCell
         cell.labelSet.text = arrString[indexPath.row]
-        cell.photoSet.image = UIImage(named: arrStringImage[indexPath.row])
-        
+        cell.photoSet.image = UIImage(named: arrImage[indexPath.row])
         // Configure the cell...
 
         return cell
     }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch (indexPath.row) {
+        case 7:
+            let alert = UIAlertController(title: nil, message: "Bạn có muốn đăng xuất không?", preferredStyle: UIAlertControllerStyle.alert)
+                
+            alert.addAction(UIAlertAction(title: "Có", style: UIAlertActionStyle.default, handler: { _ in
+            let application = UIApplication.shared.delegate as! AppDelegate
+            let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let rootViewController = storyboard.instantiateViewController(withIdentifier: "LogOut") as! LoginViewController
+            let navigationController = UINavigationController(rootViewController: rootViewController)
+                application.window?.rootViewController = navigationController
+            }))
+            alert.addAction(UIAlertAction(title: "Không", style: UIAlertActionStyle.cancel, handler: nil))
+            // show the alert
+            self.present(alert, animated: true, completion: nil)
+        case 6:
+            		
+        default:
+            print("hihi")
+        }
+    }
+
+
+   
     
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+  
 
 }

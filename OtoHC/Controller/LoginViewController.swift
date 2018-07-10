@@ -17,14 +17,13 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var registerBt: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 
        
     
     @IBAction func loginBt(_ sender: UIButton) {
         let urlString = "http://14.177.236.88:8089/api/Login?UserName=\(nameLogin.text!)&Password=\(MD5(password.text!))"
-        
+    	
         Alamofire.request(urlString).responseJSON{ response in
             print(response)
             
@@ -44,17 +43,23 @@ class LoginViewController: UIViewController {
                 else{
                     
                     let value:Dictionary<String,Any> = profileObj["value"] as! Dictionary<String,Any>
+                    let shortName:String = value["ShortName"] as! String
                     let fullName:String = value["FullName"] as! String
                     let phone:String = value["PhoneNumber"] as! String
                     let adress:String = value["Address"] as! String
                     let id:Int = value["Id"] as! Int
                     let deviceToken:String = value["DeviceToken"] as! String
+                    let username:String = value["UserName"] as! String
                     
+                    UserDefaults.standard.set(shortName, forKey: "shortName")
                     UserDefaults.standard.set(fullName, forKey: "fullName")
                     UserDefaults.standard.set(phone, forKey: "phoneNumber")
                     UserDefaults.standard.set(adress, forKey: "adress")
                     UserDefaults.standard.set(id, forKey: "Id")
                     UserDefaults.standard.set(deviceToken, forKey: "DeviceToken")
+                    UserDefaults.standard.set(username, forKey: "UserName")
+                    UserDefaults.standard.set(MD5(self.password.text!), forKey: "passWord")
+                    
                     let application = UIApplication.shared.delegate as! AppDelegate
                     let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
                     let rootViewController = storyboard.instantiateViewController(withIdentifier: "Login") 
