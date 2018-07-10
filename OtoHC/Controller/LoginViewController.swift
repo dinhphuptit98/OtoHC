@@ -59,6 +59,7 @@ class LoginViewController: UIViewController {
                     UserDefaults.standard.set(deviceToken, forKey: "DeviceToken")
                     UserDefaults.standard.set(username, forKey: "UserName")
                     UserDefaults.standard.set(MD5(self.password.text!), forKey: "passWord")
+                    UserDefaults.standard.set(self.password.text, forKey: "pass")
                     
                     let application = UIApplication.shared.delegate as! AppDelegate
                     let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)

@@ -55,9 +55,6 @@ class ViewProfileController: UIViewController {
       
         let id = UserDefaults.standard.string(forKey: "Id")!
         
-        print(shortName.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)
-        print(nameSelf.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)
-        print(adressSelf.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)
         let urlString = "http://192.168.1.212:8089/api/Members/UpdateMember?Id=\(id)&ShortName=\(shortName.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&FullName=\(nameSelf.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&PhoneNumber=\(numberPhoneSelf.text!)&LicencePlate=&LocationId=&Address=\(adressSelf.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)&Note=&UserName=&Password="
         Alamofire.request(urlString).responseJSON{ response in
             print(response)

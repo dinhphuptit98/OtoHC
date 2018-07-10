@@ -59,10 +59,13 @@ class SettingsTableViewController: UITableViewController {
             alert.addAction(UIAlertAction(title: "Không", style: UIAlertActionStyle.cancel, handler: nil))
             // show the alert
             self.present(alert, animated: true, completion: nil)
+            navigationController?.popToRootViewController(animated: false)
         case 6:
-            		
+            let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let changeVC = storyboard.instantiateViewController(withIdentifier: "changeView") as! ChangeViewController
+            self.navigationController?.pushViewController(changeVC, animated: true)
         default:
-            print("hihi")
+            print("no acion")
         }
     }
 
